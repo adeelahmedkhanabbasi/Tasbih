@@ -17,7 +17,6 @@
 		F92825CA17AB3015006B1F18 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F92825C917AB3015006B1F18 /* Default@2x.png */; };
 		F92825CC17AB3015006B1F18 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F92825CB17AB3015006B1F18 /* Default-568h@2x.png */; };
 		F92825CF17AB3015006B1F18 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92825CD17AB3015006B1F18 /* MainStoryboard_iPhone.storyboard */; };
-		F92825D217AB3015006B1F18 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92825D017AB3015006B1F18 /* MainStoryboard_iPad.storyboard */; };
 		F92825D517AB3015006B1F18 /* HCUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F92825D417AB3015006B1F18 /* HCUViewController.m */; };
 		F92825DD17AB3015006B1F18 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92825DC17AB3015006B1F18 /* SenTestingKit.framework */; };
 		F92825DE17AB3015006B1F18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92825B517AB3015006B1F18 /* UIKit.framework */; };
@@ -51,7 +50,6 @@
 		F92825C917AB3015006B1F18 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		F92825CB17AB3015006B1F18 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F92825CE17AB3015006B1F18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		F92825D117AB3015006B1F18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		F92825D317AB3015006B1F18 /* HCUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCUViewController.h; sourceTree = "<group>"; };
 		F92825D417AB3015006B1F18 /* HCUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCUViewController.m; sourceTree = "<group>"; };
 		F92825DB17AB3015006B1F18 /* TasbihTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasbihTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,7 +120,6 @@
 				F92825C417AB3015006B1F18 /* HCUAppDelegate.h */,
 				F92825C517AB3015006B1F18 /* HCUAppDelegate.m */,
 				F92825CD17AB3015006B1F18 /* MainStoryboard_iPhone.storyboard */,
-				F92825D017AB3015006B1F18 /* MainStoryboard_iPad.storyboard */,
 				F92825D317AB3015006B1F18 /* HCUViewController.h */,
 				F92825D417AB3015006B1F18 /* HCUViewController.m */,
 				F92825BC17AB3015006B1F18 /* Supporting Files */,
@@ -240,7 +237,6 @@
 				F92825CA17AB3015006B1F18 /* Default@2x.png in Resources */,
 				F92825CC17AB3015006B1F18 /* Default-568h@2x.png in Resources */,
 				F92825CF17AB3015006B1F18 /* MainStoryboard_iPhone.storyboard in Resources */,
-				F92825D217AB3015006B1F18 /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +310,6 @@
 				F92825CE17AB3015006B1F18 /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		F92825D017AB3015006B1F18 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F92825D117AB3015006B1F18 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		F92825E517AB3015006B1F18 /* InfoPlist.strings */ = {
@@ -400,6 +388,7 @@
 				GCC_PREFIX_HEADER = "Tasbih/Tasbih-Prefix.pch";
 				INFOPLIST_FILE = "Tasbih/Tasbih-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -411,6 +400,7 @@
 				GCC_PREFIX_HEADER = "Tasbih/Tasbih-Prefix.pch";
 				INFOPLIST_FILE = "Tasbih/Tasbih-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -468,6 +458,7 @@
 				F92825EF17AB3015006B1F18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F92825F017AB3015006B1F18 /* Build configuration list for PBXNativeTarget "TasbihTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +467,7 @@
 				F92825F217AB3015006B1F18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
