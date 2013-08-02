@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F92825B617AB3015006B1F18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92825B517AB3015006B1F18 /* UIKit.framework */; };
+		F92825B817AB3015006B1F18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92825B717AB3015006B1F18 /* Foundation.framework */; };
+		F92825BA17AB3015006B1F18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92825B917AB3015006B1F18 /* CoreGraphics.framework */; };
+		F92825C017AB3015006B1F18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F92825BE17AB3015006B1F18 /* InfoPlist.strings */; };
+		F92825C217AB3015006B1F18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F92825C117AB3015006B1F18 /* main.m */; };
+		F92825C617AB3015006B1F18 /* HCUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F92825C517AB3015006B1F18 /* HCUAppDelegate.m */; };
+		F92825C817AB3015006B1F18 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F92825C717AB3015006B1F18 /* Default.png */; };
+		F92825CA17AB3015006B1F18 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F92825C917AB3015006B1F18 /* Default@2x.png */; };
+		F92825CC17AB3015006B1F18 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F92825CB17AB3015006B1F18 /* Default-568h@2x.png */; };
+		F92825CF17AB3015006B1F18 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92825CD17AB3015006B1F18 /* MainStoryboard_iPhone.storyboard */; };
+		F92825D217AB3015006B1F18 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92825D017AB3015006B1F18 /* MainStoryboard_iPad.storyboard */; };
+		F92825D517AB3015006B1F18 /* HCUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F92825D417AB3015006B1F18 /* HCUViewController.m */; };
+		F92825DD17AB3015006B1F18 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92825DC17AB3015006B1F18 /* SenTestingKit.framework */; };
+		F92825DE17AB3015006B1F18 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92825B517AB3015006B1F18 /* UIKit.framework */; };
+		F92825DF17AB3015006B1F18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92825B717AB3015006B1F18 /* Foundation.framework */; };
+		F92825E717AB3015006B1F18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F92825E517AB3015006B1F18 /* InfoPlist.strings */; };
+		F92825EA17AB3015006B1F18 /* TasbihTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F92825E917AB3015006B1F18 /* TasbihTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F92825E017AB3015006B1F18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F92825AA17AB3015006B1F18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F92825B117AB3015006B1F18;
+			remoteInfo = Tasbih;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F92825B217AB3015006B1F18 /* Tasbih.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasbih.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92825B517AB3015006B1F18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F92825B717AB3015006B1F18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F92825B917AB3015006B1F18 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F92825BD17AB3015006B1F18 /* Tasbih-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tasbih-Info.plist"; sourceTree = "<group>"; };
+		F92825BF17AB3015006B1F18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F92825C117AB3015006B1F18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F92825C317AB3015006B1F18 /* Tasbih-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tasbih-Prefix.pch"; sourceTree = "<group>"; };
+		F92825C417AB3015006B1F18 /* HCUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCUAppDelegate.h; sourceTree = "<group>"; };
+		F92825C517AB3015006B1F18 /* HCUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCUAppDelegate.m; sourceTree = "<group>"; };
+		F92825C717AB3015006B1F18 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F92825C917AB3015006B1F18 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F92825CB17AB3015006B1F18 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F92825CE17AB3015006B1F18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F92825D117AB3015006B1F18 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		F92825D317AB3015006B1F18 /* HCUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCUViewController.h; sourceTree = "<group>"; };
+		F92825D417AB3015006B1F18 /* HCUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCUViewController.m; sourceTree = "<group>"; };
+		F92825DB17AB3015006B1F18 /* TasbihTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasbihTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92825DC17AB3015006B1F18 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F92825E417AB3015006B1F18 /* TasbihTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TasbihTests-Info.plist"; sourceTree = "<group>"; };
+		F92825E617AB3015006B1F18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F92825E817AB3015006B1F18 /* TasbihTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TasbihTests.h; sourceTree = "<group>"; };
+		F92825E917AB3015006B1F18 /* TasbihTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TasbihTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F92825AF17AB3015006B1F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92825B617AB3015006B1F18 /* UIKit.framework in Frameworks */,
+				F92825B817AB3015006B1F18 /* Foundation.framework in Frameworks */,
+				F92825BA17AB3015006B1F18 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92825D717AB3015006B1F18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92825DD17AB3015006B1F18 /* SenTestingKit.framework in Frameworks */,
+				F92825DE17AB3015006B1F18 /* UIKit.framework in Frameworks */,
+				F92825DF17AB3015006B1F18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F92825A917AB3015006B1F18 = {
+			isa = PBXGroup;
+			children = (
+				F92825BB17AB3015006B1F18 /* Tasbih */,
+				F92825E217AB3015006B1F18 /* TasbihTests */,
+				F92825B417AB3015006B1F18 /* Frameworks */,
+				F92825B317AB3015006B1F18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F92825B317AB3015006B1F18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F92825B217AB3015006B1F18 /* Tasbih.app */,
+				F92825DB17AB3015006B1F18 /* TasbihTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F92825B417AB3015006B1F18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F92825B517AB3015006B1F18 /* UIKit.framework */,
+				F92825B717AB3015006B1F18 /* Foundation.framework */,
+				F92825B917AB3015006B1F18 /* CoreGraphics.framework */,
+				F92825DC17AB3015006B1F18 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F92825BB17AB3015006B1F18 /* Tasbih */ = {
+			isa = PBXGroup;
+			children = (
+				F92825C417AB3015006B1F18 /* HCUAppDelegate.h */,
+				F92825C517AB3015006B1F18 /* HCUAppDelegate.m */,
+				F92825CD17AB3015006B1F18 /* MainStoryboard_iPhone.storyboard */,
+				F92825D017AB3015006B1F18 /* MainStoryboard_iPad.storyboard */,
+				F92825D317AB3015006B1F18 /* HCUViewController.h */,
+				F92825D417AB3015006B1F18 /* HCUViewController.m */,
+				F92825BC17AB3015006B1F18 /* Supporting Files */,
+			);
+			path = Tasbih;
+			sourceTree = "<group>";
+		};
+		F92825BC17AB3015006B1F18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F92825BD17AB3015006B1F18 /* Tasbih-Info.plist */,
+				F92825BE17AB3015006B1F18 /* InfoPlist.strings */,
+				F92825C117AB3015006B1F18 /* main.m */,
+				F92825C317AB3015006B1F18 /* Tasbih-Prefix.pch */,
+				F92825C717AB3015006B1F18 /* Default.png */,
+				F92825C917AB3015006B1F18 /* Default@2x.png */,
+				F92825CB17AB3015006B1F18 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F92825E217AB3015006B1F18 /* TasbihTests */ = {
+			isa = PBXGroup;
+			children = (
+				F92825E817AB3015006B1F18 /* TasbihTests.h */,
+				F92825E917AB3015006B1F18 /* TasbihTests.m */,
+				F92825E317AB3015006B1F18 /* Supporting Files */,
+			);
+			path = TasbihTests;
+			sourceTree = "<group>";
+		};
+		F92825E317AB3015006B1F18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F92825E417AB3015006B1F18 /* TasbihTests-Info.plist */,
+				F92825E517AB3015006B1F18 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F92825B117AB3015006B1F18 /* Tasbih */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F92825ED17AB3015006B1F18 /* Build configuration list for PBXNativeTarget "Tasbih" */;
+			buildPhases = (
+				F92825AE17AB3015006B1F18 /* Sources */,
+				F92825AF17AB3015006B1F18 /* Frameworks */,
+				F92825B017AB3015006B1F18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tasbih;
+			productName = Tasbih;
+			productReference = F92825B217AB3015006B1F18 /* Tasbih.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F92825DA17AB3015006B1F18 /* TasbihTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F92825F017AB3015006B1F18 /* Build configuration list for PBXNativeTarget "TasbihTests" */;
+			buildPhases = (
+				F92825D617AB3015006B1F18 /* Sources */,
+				F92825D717AB3015006B1F18 /* Frameworks */,
+				F92825D817AB3015006B1F18 /* Resources */,
+				F92825D917AB3015006B1F18 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F92825E117AB3015006B1F18 /* PBXTargetDependency */,
+			);
+			name = TasbihTests;
+			productName = TasbihTests;
+			productReference = F92825DB17AB3015006B1F18 /* TasbihTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F92825AA17AB3015006B1F18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HCU;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Hanief Cahya";
+			};
+			buildConfigurationList = F92825AD17AB3015006B1F18 /* Build configuration list for PBXProject "Tasbih" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F92825A917AB3015006B1F18;
+			productRefGroup = F92825B317AB3015006B1F18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F92825B117AB3015006B1F18 /* Tasbih */,
+				F92825DA17AB3015006B1F18 /* TasbihTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F92825B017AB3015006B1F18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92825C017AB3015006B1F18 /* InfoPlist.strings in Resources */,
+				F92825C817AB3015006B1F18 /* Default.png in Resources */,
+				F92825CA17AB3015006B1F18 /* Default@2x.png in Resources */,
+				F92825CC17AB3015006B1F18 /* Default-568h@2x.png in Resources */,
+				F92825CF17AB3015006B1F18 /* MainStoryboard_iPhone.storyboard in Resources */,
+				F92825D217AB3015006B1F18 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92825D817AB3015006B1F18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92825E717AB3015006B1F18 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F92825D917AB3015006B1F18 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F92825AE17AB3015006B1F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92825C217AB3015006B1F18 /* main.m in Sources */,
+				F92825C617AB3015006B1F18 /* HCUAppDelegate.m in Sources */,
+				F92825D517AB3015006B1F18 /* HCUViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92825D617AB3015006B1F18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92825EA17AB3015006B1F18 /* TasbihTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F92825E117AB3015006B1F18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F92825B117AB3015006B1F18 /* Tasbih */;
+			targetProxy = F92825E017AB3015006B1F18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F92825BE17AB3015006B1F18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F92825BF17AB3015006B1F18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F92825CD17AB3015006B1F18 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F92825CE17AB3015006B1F18 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F92825D017AB3015006B1F18 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F92825D117AB3015006B1F18 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F92825E517AB3015006B1F18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F92825E617AB3015006B1F18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F92825EB17AB3015006B1F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F92825EC17AB3015006B1F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F92825EE17AB3015006B1F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tasbih/Tasbih-Prefix.pch";
+				INFOPLIST_FILE = "Tasbih/Tasbih-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F92825EF17AB3015006B1F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tasbih/Tasbih-Prefix.pch";
+				INFOPLIST_FILE = "Tasbih/Tasbih-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F92825F117AB3015006B1F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tasbih.app/Tasbih";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tasbih/Tasbih-Prefix.pch";
+				INFOPLIST_FILE = "TasbihTests/TasbihTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F92825F217AB3015006B1F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tasbih.app/Tasbih";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tasbih/Tasbih-Prefix.pch";
+				INFOPLIST_FILE = "TasbihTests/TasbihTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F92825AD17AB3015006B1F18 /* Build configuration list for PBXProject "Tasbih" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92825EB17AB3015006B1F18 /* Debug */,
+				F92825EC17AB3015006B1F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F92825ED17AB3015006B1F18 /* Build configuration list for PBXNativeTarget "Tasbih" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92825EE17AB3015006B1F18 /* Debug */,
+				F92825EF17AB3015006B1F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F92825F017AB3015006B1F18 /* Build configuration list for PBXNativeTarget "TasbihTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92825F117AB3015006B1F18 /* Debug */,
+				F92825F217AB3015006B1F18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F92825AA17AB3015006B1F18 /* Project object */;
+}
