@@ -7,12 +7,15 @@
 //
 
 #import "HCUAppDelegate.h"
+//#import <NewRelicAgent/NewRelicAgent.h>
 
 @implementation HCUAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    //[NewRelicAgent startWithApplicationToken:@"AA032e85a9a227f21a8a87a0186b7c036229eb0ba6"];
+    
     return YES;
 }
 							
